@@ -1,0 +1,25 @@
+import React from 'react'
+
+const Herotxt = () => {
+  return (
+    <section>
+      <h2>Unleash the Creative Genius</h2>
+      <div className="text">
+        <p>
+          Welcome to JumaHub, the utopia of graphic design wonders where every
+          pixel is tailored to perfection. Our visionaries channel the raw power
+          of imagination, molding it into design masterpieces that defy
+          boundaries and captivate the senses.
+        </p>
+        <p>
+          JumaHub renders an artistic realm where colorful dreams seamlessly
+          blend with innovative design elements, forging a visual experience
+          that leaves a lasting impression. We bring concepts to life,
+          transcending the ordinary and breathing life into the extraordinary.
+        </p>
+      </div>
+    </section>
+  );
+}
+
+export default Herotxt

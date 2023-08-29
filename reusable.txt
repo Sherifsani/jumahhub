@@ -1,0 +1,24 @@
+import React from "react";
+import Image from "next/image";
+
+const Header = () => {
+  return (
+    <div className="w-screen h-screen overflow-hidden bg-black flex items-center justify-center flex-col">
+      <div className="w-full flex flex-col p-7">
+        <Image src="/assets/logo1.png" alt="logo" width={1000} height={1000} className="w-[100%]"/>
+        <h1 className="text-white text-[14px] text-center">
+          IF YOU CAN THINK IT, WE CAN CREATE IT
+        </h1>
+      </div>
+      <nav className="w-full">
+        <ul className="flex flex-col sm:flex-row items-center gap-5 justify-center w-full">
+          <li className="text-white">Portfolio</li>
+          <li className="text-white">Services</li>
+          <li className="text-white">About</li>
+        </ul>
+      </nav>
+    </div>
+  );
+};
+
+export default Header;
