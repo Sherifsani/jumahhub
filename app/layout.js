@@ -3,7 +3,7 @@ import { Manrope } from "next/font/google";
 import { Montserrat } from "next/font/google";
 import { Staatliches } from "next/font/google";
 import { Atkinson_Hyperlegible } from "next/font/google";
-import Nav from "@/components/Nav";
+// import Nav from "@/components/Nav";
 
 import Header from "@/components/Header";
 
@@ -18,8 +18,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={atkin.className}>
-        <Nav />
+      <body className={`${atkin.className} w-screen overflow-x-hidden`}>
+        {/* <Nav /> */}
         {children}
       </body>
     </html>

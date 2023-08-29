@@ -5,14 +5,14 @@ import Image from "next/image";
 const Nav = () => {
   return (
     <div
-      className="
+      className="bg-black w-full
     "
     >
       <div className="drawer">
         <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
         <div className="drawer-content flex flex-col">
           {/* Navbar */}
-          <div className="w-full navbar bg-black">
+          <div className="w-full max-w-7xl mx-auto my-0 navbar bg-black ">
             <div className="flex-none lg:hidden">
               <label htmlFor="my-drawer-3" className="btn btn-square btn-ghost">
                 <svg

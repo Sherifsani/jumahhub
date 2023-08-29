@@ -4,14 +4,19 @@
 @import 'daisyui/dist/full.css';
 /* Other custom styles or imports */
 
-.second-holder {
-    grid-template-columns: 30% 29% 39%;
-    grid-template-rows: 1fr 1fr;
-    gap: 2%;
+.home {
+    background: conic-gradient(from 45deg at center, #1c1c1c, #0b2a0d, #003f00);
+
 }
 
-nav {
-    width: 100vw;
-    max-width: 1280px;
-    margin: 0 auto;
+.images {
+    column-count: 2;
+    column-gap: 10px
+}
+.image-holder{
+    margin-bottom: 20px;
+}
+
+img {
+    border-radius: 10px;
 }

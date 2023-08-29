@@ -1,11 +1,21 @@
 import Image from "next/image";
 import Link from "next/link";
-import Header from "@/components/Header";
+import NewHeader from "@/components/NewHeader";
+import Herotext from "@/components/Herotext";
+import GallerySection from "@/components/GallerySection";
+// import Header from "@/components/Header";
 
 export default function Home() {
   return (
-    <main className="w-full max-w-7xl my-0 mx-auto">
-      <Header />
+    <main
+      className="
+
+     my-0 mx-auto"
+    >
+      {/* <Header /> */}
+      <NewHeader />
+      <Herotext />
+      <GallerySection/>
     </main>
   );
 }
