@@ -4,7 +4,6 @@ import NewHeader from "@/components/NewHeader";
 import Herotext from "@/components/Herotext";
 import GallerySection from "@/components/GallerySection";
 // import Header from "@/components/Header";
-import CardSect from "@/components/cardSect";
 import NewSect from "@/components/NewSect";
 import Squiggle from "@/components/Squiggle";
 
@@ -19,7 +18,6 @@ export default function Home() {
       <NewHeader />
       <Herotext />
       <GallerySection />
-      {/* <CardSect /> */}
       <div className="w-full bg-black">
         <NewSect />
       </div>

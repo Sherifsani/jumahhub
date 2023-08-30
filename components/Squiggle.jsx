@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Squiggle = () => {
   return (
-    <div className="w-full bg-black">
+    <div className="w-full bg-black pt-[200px]">
       <div className="w-full grid grid-cols-2 sm:grid-cols-6 p-10 gap-10">
         <Image
           className="w-full"
