@@ -4,6 +4,8 @@ import NewHeader from "@/components/NewHeader";
 import Herotext from "@/components/Herotext";
 import GallerySection from "@/components/GallerySection";
 // import Header from "@/components/Header";
+import CardSect from "@/components/cardSect";
+import NewSect from "@/components/NewSect";
 
 export default function Home() {
   return (
@@ -15,7 +17,11 @@ export default function Home() {
       {/* <Header /> */}
       <NewHeader />
       <Herotext />
-      <GallerySection/>
+      <GallerySection />
+      {/* <CardSect /> */}
+      <div className="w-full bg-black">
+        <NewSect />
+      </div>
     </main>
   );
 }

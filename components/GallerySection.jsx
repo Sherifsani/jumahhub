@@ -21,6 +21,7 @@ const GallerySection = () => {
               width={100}
               height={100}
               className="w-full"
+              alt="shs"
             />
           </div>
           <div className="image-holder w-[100%]">
@@ -29,6 +30,7 @@ const GallerySection = () => {
               height={100}
               src="/assets/horizontal.jpg"
               className="w-full"
+              alt="shs"
             />
           </div>
           <div className="image-holder w-[100%]">
@@ -37,6 +39,7 @@ const GallerySection = () => {
               height={100}
               src="/assets/horizontal.jpg"
               className="w-full"
+              alt="shs"
             />
           </div>
           <div className="image-holder  w-[100%]">
@@ -45,6 +48,7 @@ const GallerySection = () => {
               width={100}
               height={100}
               className="w-full"
+              alt="shs"
             />
           </div>
         </div>
