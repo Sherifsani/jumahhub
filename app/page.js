@@ -6,7 +6,8 @@ import GallerySection from "@/components/GallerySection";
 // import Header from "@/components/Header";
 import NewSect from "@/components/NewSect";
 import Squiggle from "@/components/Squiggle";
-
+import Contact from "@/components/Contact";
+import Social from "@/components/Social";
 export default function Home() {
   return (
     <main
@@ -22,6 +23,8 @@ export default function Home() {
         <NewSect />
       </div>
       <Squiggle />
+      <Contact />
+      
     </main>
   );
 }
