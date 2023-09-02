@@ -12,7 +12,7 @@ const Contact = () => {
       <div
         className={`${manrope.className} w-full flex flex-col gap-7 pt-[100px] items-center max-w-[450px] px-6`}
       >
-        <h1 className={`${staatliches.className} text-xl font-bold text-white`}>
+        <h1 className={`${staatliches.className} text-5xl font-bold text-white`}>
           READY TO SOAR?
         </h1>
         <p className="text-center text-white w-full  text-sm">
