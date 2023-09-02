@@ -22,10 +22,12 @@ const NewSect = () => {
         <div
           className={`${manrope.className} text flex flex-col gap-4  sm:items-start`}
         >
-          <h2 className="text-lightgreen text-sm uppercase font-bold text-center sm:text-[1rem] lg:text-2xl lg:leading-[unset] lg:text-start">
+          <h2
+            className={`${staatliches.className} text-white  uppercase font-bold text-center text-3xl lg:text-start`}
+          >
             Soaring High with Ingenious Design Solutions
           </h2>
-          <p className="text-sm text-lightgreen leading-7 lg:text-[17px] lg:leading-[unset]">
+          <p className=" text-white">
             JumaHub's repertoire of design genius ranges from illustrious
             branding to dynamic animations that capture the spirit of creativity
             and innovation.
@@ -45,10 +47,12 @@ const NewSect = () => {
         <div
           className={`${manrope.className} text flex flex-col gap-4  sm:items-start`}
         >
-          <h2 className="text-lightgreen text-sm uppercase font-bold text-center sm:text-[1rem] lg:text-2xl lg:leading-[unset] lg:text-start">
+          <h2
+            className={`${staatliches.className} text-white text-3xl uppercase font-bold text-center lg:text-start`}
+          >
             A Cascade of Dazzling Visuals
           </h2>
-          <p className="text-sm text-lightgreen leading-7 lg:text-[17px] lg:leading-[unset]">
+          <p className=" text-white">
             Our diverse portfolio boasts stunning artwork and masterful designs
             that embody the vibrancy of JumaHub’s creations.
           </p>
