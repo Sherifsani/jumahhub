@@ -12,7 +12,9 @@ const Contact = () => {
       <div
         className={`${manrope.className} w-full flex flex-col gap-7 pt-[100px] items-center max-w-[450px] px-6`}
       >
-        <h1 className="text-lg font-bold text-white">READY TO SOAR?</h1>
+        <h1 className={`${staatliches.className} text-xl font-bold text-white`}>
+          READY TO SOAR?
+        </h1>
         <p className="text-center text-white w-full  text-sm">
           Dive into the uncharted waters of JumaHub’s limitless design
           possibilities, and embark on an immersive journey where your ideas

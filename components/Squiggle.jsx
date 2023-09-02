@@ -4,7 +4,7 @@ import Image from "next/image";
 const Squiggle = () => {
   return (
     <div className="w-full bg-black pt-[150px]">
-      <div className="w-full grid grid-cols-2 sm:grid-cols-6 p-10 gap-10">
+      <div className="w-full grid grid-cols-2 sm:grid-cols-6 p-10 gap-10 max-w-7xl mx-auto">
         <Image
           className="w-full"
           src="/assets/squiggle 1.webp"

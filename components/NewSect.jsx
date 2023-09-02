@@ -1,6 +1,8 @@
 import Image from "next/image";
 import { Staatliches } from "next/font/google";
 import { Manrope } from "next/font/google";
+import new6 from "../public/assets/new6.jpg";
+import new8 from "../public/assets/new8.jpg";
 
 const staatliches = Staatliches({ subsets: ["latin"], weight: "400" });
 const manrope = Manrope({ subsets: ["latin"], weight: ["400", "600", "700"] });
@@ -11,9 +13,8 @@ const NewSect = () => {
       <div className="flex justify-between p-3 flex-col gap-10 bg-black sm:flex-row items-center">
         <div className="img w-full rounded-xl">
           <Image
-            src="/assets/card.jpg"
-            width={100}
-            height={100}
+            src={new6}
+            quality={100}
             alt={`ejjf`}
             className="w-full max-h-[500px] rounded-[50px]"
           />
@@ -35,10 +36,9 @@ const NewSect = () => {
       <div className="flex justify-between p-3 flex-col-reverse gap-10 bg-black sm:flex-row-reverse items-center">
         <div className="img w-full rounded-xl">
           <Image
-            src="/assets/card.jpg"
-            width={100}
-            height={100}
+            src={new8}
             alt={`ejjf`}
+            quality={100}
             className="w-full max-h-[500px] rounded-[50px]"
           />
         </div>

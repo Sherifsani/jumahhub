@@ -13,10 +13,26 @@
     column-count: 2;
     column-gap: 10px
 }
-.image-holder{
+
+.image-holder {
     margin-bottom: 20px;
 }
 
 img {
     border-radius: 10px;
+}
+
+.social svg {
+    /* filter: grayscale(100%); */
+    fill: white;
+    width: 30px;
+    height: 30px;
+}
+
+.social svg path {
+    fill: white;
+}
+
+html {
+    scroll-behavior: smooth;
 }
