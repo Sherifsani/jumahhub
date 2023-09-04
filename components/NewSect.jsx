@@ -10,24 +10,24 @@ const manrope = Manrope({ subsets: ["latin"], weight: ["400", "600", "700"] });
 const NewSect = () => {
   return (
     <section className="flex flex-col gap-[100px] max-w-5xl mx-auto py-10 pt-[150px]">
-      <div className="flex justify-between p-3 flex-col gap-10 bg-black sm:flex-row items-center">
-        <div className="img w-full rounded-xl">
+      <div className="flex justify-between p-3 flex-col gap-10 bg-greywhite rounded-3xl sm:flex-row items-center">
+        <div className="img w-full rounded-xl p-4">
           <Image
             src={new6}
             quality={100}
             alt={`ejjf`}
-            className="w-full max-h-[500px] rounded-[50px]"
+            className="w-full max-h-[500px] rounded-[50px] border-2 border-black"
           />
         </div>
         <div
           className={`${manrope.className} text flex flex-col gap-4  sm:items-start`}
         >
           <h2
-            className={`${staatliches.className} text-white  uppercase font-bold text-center text-3xl lg:text-start`}
+            className={`${staatliches.className} text-black  uppercase font-bold text-center text-3xl lg:text-start`}
           >
             Soaring High with Ingenious Design Solutions
           </h2>
-          <p className=" text-white">
+          <p className=" text-black">
             JumaHub's repertoire of design genius ranges from illustrious
             branding to dynamic animations that capture the spirit of creativity
             and innovation.
@@ -35,24 +35,24 @@ const NewSect = () => {
         </div>
       </div>
       {/*  dcdkdcdkcdc*/}
-      <div className="flex justify-between p-3 flex-col-reverse gap-10 bg-black sm:flex-row-reverse items-center">
-        <div className="img w-full rounded-xl">
+      <div className="flex justify-between p-3 flex-col-reverse gap-10 bg-greywhite rounded-3xl sm:flex-row-reverse items-center">
+        <div className="img w-full rounded-xl p-4">
           <Image
             src={new8}
             alt={`ejjf`}
             quality={100}
-            className="w-full max-h-[500px] rounded-[50px]"
+            className="w-full max-h-[500px] rounded-[50px] border-2 border-black"
           />
         </div>
         <div
           className={`${manrope.className} text flex flex-col gap-4  sm:items-start`}
         >
           <h2
-            className={`${staatliches.className} text-white text-3xl uppercase font-bold text-center lg:text-start`}
+            className={`${staatliches.className} text-black text-3xl uppercase font-bold text-center lg:text-start`}
           >
             A Cascade of Dazzling Visuals
           </h2>
-          <p className=" text-white">
+          <p className=" text-black">
             Our diverse portfolio boasts stunning artwork and masterful designs
             that embody the vibrancy of JumaHub’s creations.
           </p>

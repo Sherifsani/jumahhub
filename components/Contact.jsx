@@ -12,7 +12,9 @@ const Contact = () => {
       <div
         className={`${manrope.className} w-full flex flex-col gap-7 pt-[100px] items-center max-w-[450px] px-6`}
       >
-        <h1 className={`${staatliches.className} text-5xl font-bold text-white`}>
+        <h1
+          className={`${staatliches.className} text-5xl font-bold text-white`}
+        >
           READY TO SOAR?
         </h1>
         <p className="text-center text-white w-full  text-sm">
@@ -22,12 +24,12 @@ const Contact = () => {
           let JumaHub guide your artistic voyage?
         </p>
         <div className="buttons flex flex-col gap-2 w-full">
-          <button className="rounded-md w-full grid place-items-center py-3 bg-lightgreen">
+          <button className="btn hover:bg-white rounded-md w-full grid place-items-center py-3 bg-lightgreen">
             <Link href="/dashboard" className="text-black text-sm font-bold">
               Explore Our Services
             </Link>
           </button>
-          <button className="rounded-md w-full grid place-items-center py-3 bg-white">
+          <button className="btn hover:bg-lightgreen rounded-md w-full grid place-items-center py-3 bg-white">
             <Link href="/dashboard" className="text-black text-sm font-bold">
               Contact Us
             </Link>

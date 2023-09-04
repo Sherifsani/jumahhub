@@ -11,7 +11,7 @@ const manrope = Manrope({ subsets: ["latin"], weight: ["400", "600", "700"] });
 
 const GallerySection = () => {
   return (
-    <section className="w-full bg-black">
+    <section className="w-full bg-greywhite">
       <div className="gallery flex flex-col gap-6 w-full p-4 pt-8 max-w-5xl mx-auto py-10">
         <h1
           className={`${staatliches.className} text-lightgreen uppercase text-5xl font-bold w-full text-start sm:text-3xl lg:5xl sm:text-start sm:no-underline `}

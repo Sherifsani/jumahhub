@@ -27,10 +27,20 @@ img {
     fill: white;
     width: 30px;
     height: 30px;
+    cursor: pointer;
 }
 
 .social svg path {
     fill: white;
+}
+
+.social svg:hover {
+    fill: #8CB369;
+}
+
+.social svg path:hover {
+    fill: #8CB369;
+
 }
 
 html {
