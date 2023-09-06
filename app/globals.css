@@ -53,11 +53,15 @@ html {
     padding: 30px;
 }
 
+
 .holder {
     border-radius: 10px;
     border-bottom: 4px solid black;
 
     & p {
         color: black;
+    }
+    & img{
+    filter: grayscale(100);
     }
 }

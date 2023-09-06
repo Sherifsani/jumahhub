@@ -1,3 +1,4 @@
+"use client";
 import Banner from "../public/assets/social/banner.jpeg";
 import brand from "../public/assets/social/brand.jpeg";
 import card from "../public/assets/social/card.jpeg";
@@ -12,75 +13,62 @@ const staatliches = Staatliches({ subsets: ["latin"], weight: "400" });
 const manrope = Manrope({ subsets: ["latin"], weight: ["400", "600", "700"] });
 
 const Services = () => {
+  const data = [
+    {
+      image: Banner,
+      head: "Banner Making",
+      text: "Eye-Catching Banners for Every Occasion",
+    },
+    {
+      image: card,
+      head: "Complementary Card Printing",
+      text: "Custom Complementary Card Printing",
+    },
+    {
+      image: brand,
+      head: "Brand Consultancy",
+      text: "Strategic Brand Consultancy Services",
+    },
+    {
+      image: letter,
+      head: "Letterhead Printing",
+      text: "Professional Letterhead Printing Services",
+    },
+  ];
+
+  const dataElem = data.map((item, index) => {
+    return (
+      <div
+        key={index}
+        className="holder w-full flex md:flex-row flex-col p-3 items-center bg-white "
+      >
+        <div className="name flex flex-col items-center lg:items-start gap-4">
+          <h2
+            className={`${staatliches.className} text-2xl text-black bg-lightgreen w-[unset]`}
+          >
+            {item.head}
+          </h2>
+          <p className={`${manrope.className} text-sm font-semibold`}>
+            {item.text}
+          </p>
+        </div>
+        <div className="image">
+          <Image src={item.image} className="w-[200px]" />
+        </div>
+      </div>
+    );
+  });
+
   return (
     <section id="services" className="w-full bg-greywhite">
       <div className="services w-full max-w-5xl mx-auto p-5">
         <h1
-          className={`${staatliches.className} text-2xl text-black bg-lightgreen w-[unset]`}
+          className={`${staatliches.className} text-4xl text-lightgreen text-center`}
         >
           Services
         </h1>
         <div className="service-cards mt-4  gap-4 w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-auto">
-          <div className="holder w-full flex flex-col p-3 items-center bg-white">
-            <div className="name flex flex-col items-center">
-              <h2
-                className={`${staatliches.className} text-2xl text-black bg-lightgreen w-[unset]`}
-              >
-                Banner Making
-              </h2>
-              <p className={`${manrope.className} text-sm`}>
-                Eye-Catching Banners for Every Occasion
-              </p>
-            </div>
-            <div className="image">
-              <Image src={Banner} className="w-[200px]" />
-            </div>
-          </div>
-          <div className="holder w-full flex flex-col p-3 items-center bg-white">
-            <div className="name flex flex-col items-center">
-              <h2
-                className={`${staatliches.className} text-2xl text-black bg-lightgreen w-[unset]`}
-              >
-                LetterHead Printing
-              </h2>
-              <p className={`${manrope.className} text-sm`}>
-                Professional Letterhead Printing Services
-              </p>
-            </div>
-            <div className="image">
-              <Image src={letter} className="w-[200px]" />
-            </div>
-          </div>
-          <div className="holder w-full flex flex-col p-3 items-center bg-white">
-            <div className="name flex flex-col items-center">
-              <h2
-                className={`${staatliches.className} text-2xl text-black bg-lightgreen w-[unset]`}
-              >
-                Flier Printing
-              </h2>
-              <p className={`${manrope.className} text-sm`}>
-                Vibrant Flyer Printing for Your Promotions
-              </p>
-            </div>
-            <div className="image">
-              <Image src={flier} className="w-[200px]" />
-            </div>
-          </div>
-          <div className="holder w-full flex flex-col p-3 items-center bg-white">
-            <div className="name flex flex-col items-center">
-              <h2
-                className={`${staatliches.className} text-2xl text-black bg-lightgreen w-[unset]`}
-              >
-                Complementary Card Printing
-              </h2>
-              <p className={`${manrope.className} text-sm`}>
-                Custom Complementary Card Printing
-              </p>
-            </div>
-            <div className="image">
-              <Image src={card} className="w-[200px]" />
-            </div>
-          </div>
+          {dataElem}
         </div>
       </div>
     </section>

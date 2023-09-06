@@ -9,10 +9,10 @@ export default function Home() {
       <Herotext />
       <Services />
       <GallerySection />
-      {/* <div className="w-full bg-black">
+      <div className="w-full bg-black">
         <NewSect />
       </div>
-      <Squiggle /> */}
+      <Squiggle />
     </main>
   );
 }
