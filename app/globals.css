@@ -50,7 +50,7 @@ html {
 }
 
 .squiggle img {
-    padding: 30px;
+    padding: 20px;
 }
 
 
@@ -61,7 +61,8 @@ html {
     & p {
         color: black;
     }
-    & img{
-    filter: grayscale(100);
+
+    & img {
+        filter: grayscale(100);
     }
 }

@@ -11,12 +11,12 @@ const NewSect = () => {
   return (
     <section className="flex flex-col gap-[100px] max-w-5xl mx-auto py-10 pt-[150px]">
       <div className="flex justify-between p-3 flex-col gap-10 bg-black sm:flex-row items-center">
-        <div className="img w-full rounded-xl p-4">
+        <div className="img w-full rounded-lg p-4">
           <Image
             src={new6}
             quality={100}
             alt={`ejjf`}
-            className="w-full max-h-[500px] rounded-[50px]"
+            className="w-full max-h-[500px] rounded-[20px]"
           />
         </div>
         <div
@@ -34,14 +34,13 @@ const NewSect = () => {
           </p>
         </div>
       </div>
-      {/*  dcdkdcdkcdc*/}
       <div className="flex justify-between p-3 flex-col-reverse gap-10 bg-black sm:flex-row-reverse items-center">
-        <div className="img w-full rounded-xl p-4">
+        <div className="img w-full rounded-lg p-4">
           <Image
             src={new8}
             alt={`ejjf`}
             quality={100}
-            className="w-full max-h-[500px] rounded-[50px]"
+            className="w-full max-h-[500px] rounded-[20px]"
           />
         </div>
         <div
