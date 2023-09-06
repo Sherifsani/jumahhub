@@ -2,12 +2,10 @@ import "./globals.css";
 import { Manrope } from "next/font/google";
 import { Montserrat } from "next/font/google";
 import { Staatliches } from "next/font/google";
+import Footer from "@/components/Footer";
+import NewHeader from "@/components/NewHeader";
 import { Atkinson_Hyperlegible } from "next/font/google";
-// import Nav from "@/components/Nav";
 
-import Header from "@/components/Header";
-
-// const montserrat = Montserrat({ subsets: ["latin"] });
 const atkin = Atkinson_Hyperlegible({ subsets: ["latin"], weight: "400" });
 
 export const metadata = {
@@ -19,8 +17,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${atkin.className} w-screen overflow-x-hidden`}>
-        {/* <Nav /> */}
+        <NewHeader />
         {children}
+        <Footer />
       </body>
     </html>
   );

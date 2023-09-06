@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { Staatliches } from "next/font/google";
 import { Manrope } from "next/font/google";
+import Link from "next/link";
 
 const staatliches = Staatliches({ subsets: ["latin"], weight: "400" });
 const manrope = Manrope({ subsets: ["latin"], weight: "400" });
@@ -31,7 +32,12 @@ const NewHeader = () => {
             Portfolio
           </li>
           <li className="text-white font-bold sm:text-lg cursor-pointer">
-            Services
+            <a
+              className="text-white font-bold sm:text-lg cursor-pointer"
+              href="#services"
+            >
+              Services
+            </a>
           </li>
           <li className="text-white font-bold sm:text-lg cursor-pointer">
             <a
