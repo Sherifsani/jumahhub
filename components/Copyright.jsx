@@ -9,7 +9,7 @@ const Copyright = () => {
   const currentYear = new Date().getFullYear();
   return (
     <div className={`${staatliches.className} text-white`}>
-      <p>&copy; {currentYear} JumaHub Designs</p>
+      <p>&copy; {currentYear} JumaHub </p>
     </div>
   );
 };
