@@ -25,12 +25,18 @@ const Contact = () => {
         </p>
         <div className="buttons flex flex-col gap-2 w-full">
           <button className="btn hover:bg-white rounded-md w-full grid place-items-center py-3 bg-lightgreen">
-            <Link href="/dashboard" className="text-black text-sm font-bold">
-              Explore Our Services
+            <Link
+              href="tel:+2348180039012"
+              className="text-black text-sm font-bold"
+            >
+              Call to get started
             </Link>
           </button>
           <button className="btn hover:bg-lightgreen rounded-md w-full grid place-items-center py-3 bg-white">
-            <Link href="/dashboard" className="text-black text-sm font-bold">
+            <Link
+              href="https://wa.link/85yxsn"
+              className="text-black text-sm font-bold"
+            >
               Contact Us
             </Link>
           </button>

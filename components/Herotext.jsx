@@ -1,6 +1,5 @@
 import { Staatliches } from "next/font/google";
 import { Manrope } from "next/font/google";
-
 const staatliches = Staatliches({ subsets: ["latin"], weight: "400" });
 const manrope = Manrope({ subsets: ["latin"], weight: ["400", "600", "700"] });
 
@@ -9,7 +8,7 @@ const Herotext = () => {
     <section className="w-full bg-white">
       <div className="flex flex-col w-full  py-6 px-4 gap-7 sm:gap-9 sm:py-[120px] sm:w-[80%] mx-auto max-w-5xl ">
         <h1
-          className={`${staatliches.className} text-black uppercase text-xl underline font-bold w-full text-center sm:text-3xl lg:5xl sm:text-start sm:no-underline `}
+          className={`${staatliches.className} text-black uppercase text-2xl underline font-bold w-full text-center sm:text-3xl lg:5xl sm:text-start sm:no-underline `}
         >
           unleash the creative genius
         </h1>

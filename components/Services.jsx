@@ -44,7 +44,7 @@ const Services = () => {
       >
         <div className="name flex flex-col items-center lg:items-start gap-4">
           <h2
-            className={`${staatliches.className} text-2xl text-black bg-lightgreen w-[unset]`}
+            className={`${staatliches.className} text-2xl text-black w-[unset]`}
           >
             {item.head}
           </h2>
@@ -63,7 +63,7 @@ const Services = () => {
     <section id="services" className="w-full bg-greywhite">
       <div className="services w-full max-w-5xl mx-auto p-5">
         <h1
-          className={`${staatliches.className} text-4xl text-lightgreen text-center`}
+          className={`${staatliches.className} text-4xl text-lightgreen text-start`}
         >
           Services
         </h1>

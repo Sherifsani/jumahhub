@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Head>
-        <link rel="icon" href="../public/assets/favicon.ico" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <body className={`${atkin.className} w-screen overflow-x-hidden`}>
         <NewHeader />

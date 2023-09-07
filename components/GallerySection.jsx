@@ -4,7 +4,7 @@ import { Manrope } from "next/font/google";
 import vert from "../public/assets/vert.jpg";
 import horizontal from "../public/assets/horizontal.jpg";
 import new1 from "../public/assets/new1.jpg";
-import new2 from "../public/assets/new2.jpg";
+import new9 from "../public/assets/new9.jpg";
 
 const staatliches = Staatliches({ subsets: ["latin"], weight: "400" });
 const manrope = Manrope({ subsets: ["latin"], weight: ["400", "600", "700"] });
@@ -29,7 +29,7 @@ const GallerySection = () => {
             <Image src={new1} className="w-full" alt="shs" />
           </div>
           <div className="image-holder  w-[100%]">
-            <Image src={new2} className="w-full" alt="shs" />
+            <Image src={new9} className="w-full" alt="shs" />
           </div>
         </div>
       </div>
