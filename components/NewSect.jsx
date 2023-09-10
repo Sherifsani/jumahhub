@@ -27,7 +27,7 @@ const NewSect = () => {
           >
             Soaring High with Ingenious Design Solutions
           </h2>
-          <p className=" text-white">
+          <p className="textt text-white">
             JumaHub's repertoire of design genius ranges from illustrious
             branding to dynamic animations that capture the spirit of creativity
             and innovation.
@@ -51,7 +51,7 @@ const NewSect = () => {
           >
             A Cascade of Dazzling Visuals
           </h2>
-          <p className=" text-white">
+          <p className="textt text-white">
             Our diverse portfolio boasts stunning artwork and masterful designs
             that embody the vibrancy of JumaHub’s creations.
           </p>
