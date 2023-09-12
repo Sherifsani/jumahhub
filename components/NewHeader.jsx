@@ -29,7 +29,12 @@ const NewHeader = () => {
           className={`${manrope.className} flex flex-col sm:flex-row items-center gap-3 sm:gap-8 justify-center w-full`}
         >
           <li className="text-white font-bold sm:text-lg cursor-pointer">
-            Portfolio
+            <a
+              className="text-white font-bold sm:text-lg cursor-pointer"
+              href="#portfolio"
+            >
+              works
+            </a>
           </li>
           <li className="text-white font-bold sm:text-lg cursor-pointer">
             <a
