@@ -38,7 +38,7 @@ export default function Carousel() {
     </SwiperSlide>
   ));
   return (
-    <div className="w-full">
+    <div className="w-full md:w-[50%]">
       <Swiper
         slidesPerView={1}
         spaceBetween={30}
