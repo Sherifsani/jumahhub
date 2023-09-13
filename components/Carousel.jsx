@@ -33,7 +33,7 @@ export default function Carousel() {
     <SwiperSlide key={idx}>
       <Image
         src={item}
-        className="w-[full] h-[300px] rounded-none md:rounded-lg"
+        className="w-[full] h-[unset] max-h-[500px] rounded-none md:rounded-lg"
       />
     </SwiperSlide>
   ));
